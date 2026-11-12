@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Демонстрационный статический сайт для практической работы № 3.">
+  <title>Мой сайт — Главная</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Мой сайт</a>
+      <nav aria-label="Основная навигация">
+        <a class="active" href="index.html">Главная</a>
+        <a href="about.html">О проекте</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Практическая работа № 3</p>
+        <h1>Публикация статического сайта</h1>
+        <p class="lead">Небольшой демонстрационный сайт, подготовленный для размещения на бесплатном хостинге GitHub Pages.</p>
+        <a class="button" href="about.html">Подробнее о проекте</a>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>Что представляет собой этот сайт?</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">HTML</div>
+          <h3>Структура</h3>
+          <p>HTML задаёт содержание и структуру веб-страниц.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">CSS</div>
+          <h3>Оформление</h3>
+          <p>CSS отвечает за цвета, расположение элементов и адаптивность.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">JS</div>
+          <h3>Интерактивность</h3>
+          <p>JavaScript добавляет простые интерактивные функции.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="notice">
+      <div class="container">
+        <h2>Проверка JavaScript</h2>
+        <p id="status-message">Нажмите кнопку, чтобы проверить работу скрипта.</p>
+        <button class="button button-secondary" id="check-button" type="button">Проверить работу</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Демонстрационный сайт для практической работы № 3</p>
+    </div>
+  </footer>
+</body>
+</html>
